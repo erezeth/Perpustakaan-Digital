@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Aset dan upload ada di public/; petakan agar URL dari root proyek tetap jalan.
+RewriteRule ^assets/(.*)$ public/assets/$1 [L]
+RewriteRule ^uploads/(.*)$ public/uploads/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ public/index.php [L]

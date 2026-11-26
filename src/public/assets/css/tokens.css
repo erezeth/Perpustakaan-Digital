@@ -1,0 +1,46 @@
+/* Token desain Litera — diekstrak dari Style Guide Framer. */
+:root {
+    /* Palet */
+    --kelp: #3D402F;
+    --willow: #6B7F64;
+    --whiskey: #D59A7A;
+    --tamarillo: #9C0D0F;
+
+    --bg: #F7F3EE;
+    --card: #FFFFFF;
+    --sunken: rgba(61, 64, 47, 0.04);
+    --border: #E4DDD3;
+
+    --ink: #3D402F;
+    --ink-2: rgba(61, 64, 47, 0.62);
+    --ink-inv: #FFFFFF;
+
+    /* Tint status */
+    --tint-success: rgba(107, 127, 100, 0.14);
+    --tint-warning: rgba(213, 154, 122, 0.20);
+    --tint-danger: rgba(156, 13, 15, 0.10);
+    --tint-neutral: rgba(61, 64, 47, 0.08);
+
+    /* Radius */
+    --radius-kecil: 8px;
+    --radius-input: 12px;
+    --radius-tombol: 14px;
+    --radius-kartu: 16px;
+    --radius-pil: 999px;
+
+    /* Bayangan */
+    --bayang-halus: 0 1px 2px 0 rgba(61, 64, 47, 0.08);
+    --bayang-angkat: 0 12px 32px 0 rgba(61, 64, 47, 0.10);
+
+    /* Jarak */
+    --jarak-1: 4px;
+    --jarak-2: 8px;
+    --jarak-3: 12px;
+    --jarak-4: 16px;
+    --jarak-5: 24px;
+    --jarak-6: 32px;
+
+    /* Tipografi */
+    --font-judul: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --font-teks: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
